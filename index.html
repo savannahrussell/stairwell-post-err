@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Barkley Stair Message Generator</title>
+  <meta name="viewport" content="width=device-width" />
+
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Barkley Stair Message Generator" />
+  <meta property="og:description" content="Parody + Technology" />
+  <meta property="og:image" content="" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@littlebirdgirl" />
+  <meta property="twitter:title" content="Barkley Stair Message Generator" />
+
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#26a69a">
+  <meta name="apple-mobile-web-app-title" content="Barkley Stair Message Generator">
+  <meta name="application-name" content="Barkley Stair Message Generator">
+  <meta name="msapplication-TileColor" content="#26a69a">
+  <meta name="theme-color" content="#26a69a">
+
+  <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow|Raleway:900|Lato:700" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" media="all" />
+
+  <style>
+  /* setting defaults */
+  :root {
+    --first-bg-color: #4DD0E1;
+    --second-bg-color: #8E24AA;
+    --gradient-direction: to left;
+    --ease-variable: 40%;
+
+    --grid-column-layout: 1fr 1fr 1fr;
+    --grid-row-layout: 1fr 1fr 1fr;
+
+    --span-one-size: 10em;
+    --span-two-size: 1em;
+    --span-three-size: 3em;
+
+    --span-one-caps: none;
+    --span-two-caps: uppercase;
+    --span-three-caps: capitalize;
+  }
+
+  body {
+    background-image: linear-gradient(var(--gradient-direction), var(--first-bg-color) var(--ease-variable), var(--second-bg-color));
+  }
+
+  h1 {
+    grid-template-columns: var(--grid-column-layout);
+    grid-template-rows: var(--grid-row-layout);
+  }
+
+  .span-1 {
+    grid-area: 1 / 1;
+    font-size: var(--span-one-size);
+    text-transform: var(--span-one-caps);
+  }
+
+  .span-2 {
+    grid-area: 2 / 2;
+    font-size: var(--span-two-size);
+    text-transform: var(--span-two-caps);
+  }
+
+  .span-3 {
+    grid-area: 3 / 3;
+    font-size: var(--span-three-size);
+    text-transform: var(--span-three-caps);
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+  <main>
+
+    <h1><span class="span-1">here </span><span class="span-2">is a really</span><span class="span-3"> big h1</span></h1>
+
+  </main>
+
+  <!-- All SVG icons from Flaticon -->
+
+</body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js?ver=2.2.4"></script>
+
+<script src="assets/js/main.js"></script>
+
+</html>

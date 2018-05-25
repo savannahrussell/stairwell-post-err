@@ -1,0 +1,28 @@
+// ================================
+// Main
+// ================================
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+main {
+  display: grid;
+  margin: auto;
+  width: 95vw;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-3 {
+  img {
+    min-width: 250px;
+    min-height: 250px;
+    object-fit: cover;
+  }
+}
+
